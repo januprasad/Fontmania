@@ -10,7 +10,7 @@ FontMania
 
 
  `FontMania` is simple Android library allowing you to easily change the typeface
- of your UI elements. Contrary to other implementations .
+ of your UI elements.
 
  Using `FontMania` requires  nothing from your app
 
@@ -49,7 +49,7 @@ Configuration
 
        ROBOTO(text, text2, text3)
        ROBOTO_BOLD(text4, text2)
-      
+
 Contributing
 ============
 
@@ -68,6 +68,6 @@ Contributing
 License
 =======
 
-  * Written and copyrighted &copy;2013-2019 by Marcin Januprasad <mail (#) jnuprasad@gmail (.) com>
+  * Written and copyrighted &copy;2019-2020by  Januprasad <mail (#) jnuprasad@gmail . com>
   * `FontMania` is open-sourced library licensed under the Apache 2.0 license
 
