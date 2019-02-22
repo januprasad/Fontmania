@@ -13,6 +13,5 @@ import org.junit.Assert.assertEquals
 class FontmaniaTests {
     @Test
     fun mod() {
-
     }
 }

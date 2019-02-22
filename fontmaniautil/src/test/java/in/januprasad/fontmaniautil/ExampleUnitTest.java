@@ -12,6 +12,9 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() {
-        assertEquals(4, 2 + 2);
+        Font font = FontManager.ROBOTO.withType(FontType.BOLD);
+        Font font2 = FontManager.ROBOTO.withType(FontType.REGULAR);
+        System.out.println(font.getType());
+        System.out.println(font2.getType());
     }
 }
