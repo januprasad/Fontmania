@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setFont(FontManager.ROBOTO.withType(FontType.BOLD), text)
+        setFont(FontManager.BARLOW.withType(FontType.BOLD), text1)
+        setFont(FontManager.FIRA, text2)
+        setFont(FontManager.FIRA, text3)
     }
 }
