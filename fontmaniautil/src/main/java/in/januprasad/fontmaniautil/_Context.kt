@@ -13,6 +13,8 @@ fun Context.setFont(font: Font, vararg inputs: TextView) {
     }
 }
 
+fun Context.getFont(font: Font) = getTypeFace(applicationContext, font)!!
+
 fun getTypeFace(applicationContext: Context, font: Font): Typeface? {
     return when (font) {
         /**
