@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setFont(FontManager.BARLOW.withType(FontType.BOLD), text1)
-        setFont(FontManager.FIRA, text2)
-        setFont(FontManager.FIRA, text3)
+        setFont(FontManager.FIRA_SANS, text2)
+        setFont(FontManager.LAILA, text3)
+        setFont(FontManager.NOTO, text4)
     }
 }
