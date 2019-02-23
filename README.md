@@ -47,8 +47,23 @@ Configuration
 
  Then add the following lines to your Activity/Fragment 's class' `onCreate()`
 
-       ROBOTO(text, text2, text3)
-       ROBOTO_BOLD(text4, text2)
+        setFont(FontManager.BARLOW.withType(FontType.BOLD), text1)
+        setFont(FontManager.FIRA_SANS, text2)
+        setFont(FontManager.LAILA.withType(FontType.BOLD), text3)
+        setFont(FontManager.NOTO.withType(FontType.BOLD), text4)
+        
+Supporting Fonts
+================
+
+  FontMania currently supporting fonts are.
+  
+        ROBOTO  - BLACK, BOLD, LIGHT, REGULAR
+        ROBOTO_CONDENSED  - BOLD, LIGHT, REGULAR
+        NOTO  - BOLD, REGULAR
+        PLAYFAIR  - BOLD, BLACK, REGULAR
+        LAILA  - BOLD, LIGHT, REGULAR
+        FIRA_SANS  - BLACK, BOLD, LIGHT, REGULAR, CONDENSED, MEDIUM, THIN
+        
 
 Contributing
 ============
@@ -68,6 +83,6 @@ Contributing
 License
 =======
 
-  * Written and copyrighted &copy;2019-2020by  Januprasad <mail (#) jnuprasad@gmail . com>
-  * `FontMania` is open-sourced library licensed under the Apache 2.0 license
+  * Written and copyrighted &copy;2019-2020 by  Januprasad <mail (#) jnuprasad@gmail.com>
+  * `FontMania` is open-sourced library licensed under the MIT license
 

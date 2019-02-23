@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setFont(FontManager.BARLOW.withType(FontType.BOLD), text1)
         setFont(FontManager.FIRA_SANS, text2)
-        setFont(FontManager.LAILA, text3)
-        setFont(FontManager.NOTO, text4)
+        setFont(FontManager.LAILA.withType(FontType.BOLD), text3)
+        setFont(FontManager.NOTO.withType(FontType.BOLD), text4)
     }
 }
