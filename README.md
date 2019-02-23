@@ -55,7 +55,7 @@ Configuration
 Supporting Fonts
 ================
 
-  FontMania currently supporting fonts are.
+  FontMania currently supports.
   
         ROBOTO  - BLACK, BOLD, LIGHT, REGULAR
         ROBOTO_CONDENSED  - BOLD, LIGHT, REGULAR
