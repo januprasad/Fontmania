@@ -56,7 +56,6 @@ fun getTypeFace(applicationContext: Context, font: Font): Typeface? {
         FontManager.NOTO.withType(FontType.BOLD) -> getTypeFace(applicationContext, R.font.noto_sans_bold)
 
 
-
         /**
          * BARLOW
          */

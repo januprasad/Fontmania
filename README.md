@@ -40,7 +40,8 @@ Installation
     }
 
  Next, edit your **module**'s `build.gradle` and the following dependency:
-     implementation 'com.github.januprasad:Fontmania:<VERSION>'
+        
+        implementation 'com.github.januprasad:Fontmania:<VERSION>'
 
 Configuration
 =============
