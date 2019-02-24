@@ -1,11 +1,11 @@
 package `in`.januprasad.fontmaniautil
-
+//TODO Pass name also to constructor
 object FontManager {
-    val ROBOTO = Font(FontType.REGULAR)
-    val ROBOTO_CONDENSED = Font(FontType.REGULAR)
-    val FIRA_SANS = Font(FontType.CONDENSED)
-    val BARLOW = Font(FontType.REGULAR)
-    val LAILA = Font(FontType.REGULAR)
-    val NOTO = Font(FontType.REGULAR)
-    val PLAYFAIR = Font(FontType.REGULAR)
+    var ROBOTO = Font(FontType.REGULAR)
+    var ROBOTO_CONDENSED = Font(FontType.REGULAR)
+    var FIRA_SANS = Font(FontType.CONDENSED)
+    var BARLOW = Font(FontType.REGULAR)
+    var LAILA = Font(FontType.REGULAR)
+    var NOTO = Font(FontType.REGULAR)
+    var PLAYFAIR = Font(FontType.REGULAR)
 }

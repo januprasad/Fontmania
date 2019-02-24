@@ -16,4 +16,8 @@ class Font(type: FontType) {
         return INSTANCE
     }
 
+    override fun toString(): String {
+        return type.toString()
+    }
+
 }
