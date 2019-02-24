@@ -46,11 +46,11 @@ Installation
 Configuration
 =============
 
- Then add the following lines to your Activity/Fragment 's class' `onCreate()`
+ Then use **setFont** method to your Activity/Fragment 's class' `onCreate()`:
 
-        setFont(FontManager.BARLOW.withType(FontType.BOLD), text1)
-        setFont(FontManager.FIRA_SANS, text2)
-        setFont(FontManager.LAILA.withType(FontType.BOLD), text3)
+        setFont(FontManager.BARLOW.withType(FontType.BOLD), text1, button1)
+        setFont(FontManager.FIRA_SANS, button2)
+        setFont(FontManager.LAILA.withType(FontType.BOLD), text3, text4, button3)
         setFont(FontManager.NOTO.withType(FontType.BOLD), text4)
         
 Supporting Fonts
